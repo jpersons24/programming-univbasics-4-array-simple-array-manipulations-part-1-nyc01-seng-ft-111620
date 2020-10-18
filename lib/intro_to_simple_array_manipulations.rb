@@ -10,3 +10,8 @@ def using_pop(array)
   removed_element = array.pop
   removed_element
 end
+
+def pop_with_args(array)
+  removed_elements = array.pop(2)
+  removed_elements
+end
