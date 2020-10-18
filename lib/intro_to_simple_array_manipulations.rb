@@ -15,3 +15,8 @@ def pop_with_args(array)
   removed_elements = array.pop(2)
   removed_elements
 end
+
+def using_shift(array)
+  removed_element = array.shift
+  removed_element
+end
