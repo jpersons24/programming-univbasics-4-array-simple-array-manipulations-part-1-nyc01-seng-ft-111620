@@ -20,3 +20,8 @@ def using_shift(array)
   removed_element = array.shift
   removed_element
 end
+
+def shift_with_args(array)
+  removed_elements = array.shift(2)
+  removed_elements
+end
